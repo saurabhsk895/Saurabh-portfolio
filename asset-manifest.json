@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Saurabh-portfolio/static/css/main.953d7874.css",
+    "main.js": "/Saurabh-portfolio/static/js/main.a1abe3d3.js",
+    "static/media/qr-code-gen.png": "/Saurabh-portfolio/static/media/qr-code-gen.b97e45dd5ec69033fb0e.png",
+    "static/media/youtube-clone.png": "/Saurabh-portfolio/static/media/youtube-clone.b8f135859b7167ee29ac.png",
+    "static/media/logo.png": "/Saurabh-portfolio/static/media/logo.8aecd1de0dfeec2ebcea.png",
+    "static/media/intex.jpg": "/Saurabh-portfolio/static/media/intex.435d192df6f624cd4919.jpg",
+    "static/media/calculator.png": "/Saurabh-portfolio/static/media/calculator.f4ce5724dde2e50e37bd.png",
+    "static/media/avatar.jpeg": "/Saurabh-portfolio/static/media/avatar.3536960330ae1738ca29.jpeg",
+    "static/media/aiftp.jpg": "/Saurabh-portfolio/static/media/aiftp.3aa1d971e5afa43b92eb.jpg",
+    "static/media/gstpam.jpg": "/Saurabh-portfolio/static/media/gstpam.5538fd3837bfe1f02e13.jpg",
+    "static/media/ctc.jpg": "/Saurabh-portfolio/static/media/ctc.1e26be75d6b8d9d70e1e.jpg",
+    "static/media/wofx.jpg": "/Saurabh-portfolio/static/media/wofx.ca7c7d78191fd3b23466.jpg",
+    "static/media/react.png": "/Saurabh-portfolio/static/media/react.35665466e9952ff08a63.png",
+    "static/media/worldex.jpg": "/Saurabh-portfolio/static/media/worldex.af259cefe50d57a474a0.jpg",
+    "static/media/ui-design.png": "/Saurabh-portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/Saurabh-portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/Saurabh-portfolio/index.html",
+    "main.953d7874.css.map": "/Saurabh-portfolio/static/css/main.953d7874.css.map",
+    "main.a1abe3d3.js.map": "/Saurabh-portfolio/static/js/main.a1abe3d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.953d7874.css",
+    "static/js/main.a1abe3d3.js"
+  ]
+}
