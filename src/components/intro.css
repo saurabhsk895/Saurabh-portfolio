@@ -1,0 +1,130 @@
+#intro {
+    height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.bg{
+    
+    margin-top: 10rem;
+    right: 5rem;
+    width: 250px;
+    height: 250px;
+    background-position: 50%;
+    border: 3px solid white;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    position: relative;
+    box-shadow: 0 0 35px rgb(255, 255, 0);
+    animation: animate 8s ease-in-out infinite;
+    user-drag: none; /* For older browsers */
+    -webkit-user-drag: none; /* For WebKit-based browsers */
+    user-drag: none; /* For future browsers */
+    user-drag: none; /* Prevents dragging on touch devices */
+    -moz-user-select: none; /* Disable image dragging in Firefox */
+    -webkit-user-drag: none; /* Disable image dragging in WebKit browsers */
+    -ms-user-select: none; /* Disable image dragging in Internet Explorer */
+
+    
+
+
+
+    /* position: absolute;
+    top: 2rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh; */
+}
+
+@keyframes animate{
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 50% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+
+    
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: yellow;
+}
+
+.introPara{
+font-size: medium;
+font-weight: 100;
+letter-spacing: 1px;
+
+}
+
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Change to your desired hover background color */
+    color: white; /* Change to your desired hover text color */
+  }
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:650px) {
+        .bg{
+        width: 150px;
+        height: 150px;
+        top: 0rem;
+        right: 30px;
+        position: relative;   
+        }
+ .introContent{
+    position: relative;
+
+ }
+}
+
+

@@ -1,0 +1,105 @@
+#contactPage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.clientimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clientimg {
+    padding: 10px; /* Initial padding */
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Slower transition */
+}
+
+.clientimg:hover {
+    padding: 20px; /* Increased padding on hover */
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.5); /* Glowing box shadow on hover */
+    transform: scale(1.1); /* Scale up on hover for a smoother effect */
+}
+
+  
+
+.clientimgs img{
+    width: 250px;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    object-fit:contain ;
+    border-radius: 10%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.clientsDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .message {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40, 40);
+}
+
+.submitbtn {
+    background: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    margin: 2rem; 
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+   }
+
+   .submitbtn:hover {
+    background-color: #333; /* Darker shade for button on hover */
+    color: #fff; /* White text color on hover */
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.8); /* Glowing box shadow on hover */
+  }
+   
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+
