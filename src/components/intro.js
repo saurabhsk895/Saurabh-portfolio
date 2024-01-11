@@ -16,7 +16,7 @@ const Intro = () => {
           with a passion for crafting delightful user experiences. <br />
           I love creating intuitive interfaces that make people's lives easier. 💻✨
         </span>
-        <a href="https://drive.google.com/file/d/1BXT9u_ftdUZyCQsGTixdYbGAWUHFdOlu/view?usp=drive_link" target='_blank' rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1N0j2e1dDIgmqwrw_JJcRwB1W9l4THK5R/view?usp=sharing" target='_blank' rel="noopener noreferrer">
           <button className="btn">
             <img src={hiremeimg} alt="" className="btnImg" />
             Resume
