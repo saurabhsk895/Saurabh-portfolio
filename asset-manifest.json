@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Saurabh-portfolio/static/css/main.953d7874.css",
-    "main.js": "/Saurabh-portfolio/static/js/main.a1abe3d3.js",
+    "main.css": "/Saurabh-portfolio/static/css/main.f749b264.css",
+    "main.js": "/Saurabh-portfolio/static/js/main.283adcdf.js",
     "static/media/qr-code-gen.png": "/Saurabh-portfolio/static/media/qr-code-gen.b97e45dd5ec69033fb0e.png",
     "static/media/youtube-clone.png": "/Saurabh-portfolio/static/media/youtube-clone.b8f135859b7167ee29ac.png",
     "static/media/logo.png": "/Saurabh-portfolio/static/media/logo.8aecd1de0dfeec2ebcea.png",
@@ -17,11 +17,11 @@
     "static/media/ui-design.png": "/Saurabh-portfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "static/media/instagram.png": "/Saurabh-portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/Saurabh-portfolio/index.html",
-    "main.953d7874.css.map": "/Saurabh-portfolio/static/css/main.953d7874.css.map",
-    "main.a1abe3d3.js.map": "/Saurabh-portfolio/static/js/main.a1abe3d3.js.map"
+    "main.f749b264.css.map": "/Saurabh-portfolio/static/css/main.f749b264.css.map",
+    "main.283adcdf.js.map": "/Saurabh-portfolio/static/js/main.283adcdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.953d7874.css",
-    "static/js/main.a1abe3d3.js"
+    "static/css/main.f749b264.css",
+    "static/js/main.283adcdf.js"
   ]
 }
